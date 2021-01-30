@@ -76,3 +76,9 @@ void Ebook::on_system_clicked()
     mode=5;
     display();
 }
+
+void Ebook::on_localbook_clicked()
+{
+    mode=1;
+    display();
+}

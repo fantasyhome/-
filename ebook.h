@@ -28,6 +28,8 @@ private slots:
 
     void on_system_clicked();
 
+    void on_localbook_clicked();
+
 private:
     Ui::Ebook *ui;
 };
