@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Ebook</class>
+ <widget class="QMainWindow" name="Ebook">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1483</width>
+    <height>688</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Ebook</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QPushButton" name="mainpage">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>151</width>
+      <height>111</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>首页</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="readbook">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>110</y>
+      <width>151</width>
+      <height>111</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>看书界面</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="reply">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>220</y>
+      <width>151</width>
+      <height>111</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>查看回复</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="shop">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>330</y>
+      <width>151</width>
+      <height>111</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>购买书籍</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="personal">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>440</y>
+      <width>151</width>
+      <height>111</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>个人信息</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="system">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>550</y>
+      <width>151</width>
+      <height>111</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>系统设置</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="localbook">
+    <property name="geometry">
+     <rect>
+      <x>200</x>
+      <y>30</y>
+      <width>191</width>
+      <height>221</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>本地书籍</string>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="show">
+    <property name="geometry">
+     <rect>
+      <x>153</x>
+      <y>6</y>
+      <width>1321</width>
+      <height>651</height>
+     </rect>
+    </property>
+   </widget>
+   <zorder>show</zorder>
+   <zorder>mainpage</zorder>
+   <zorder>readbook</zorder>
+   <zorder>reply</zorder>
+   <zorder>shop</zorder>
+   <zorder>personal</zorder>
+   <zorder>system</zorder>
+   <zorder>localbook</zorder>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
