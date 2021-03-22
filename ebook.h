@@ -6,6 +6,8 @@
 #include <QLabel>
 #include <QComboBox>
 #include <QSpinBox>
+#include <QToolBar>
+#include <QColorDialog>
 #include"DrawWidget.h"
 QT_BEGIN_NAMESPACE
 namespace Ui { class Ebook; }
@@ -51,17 +53,24 @@ private slots:
     void five_off();
     void six_on();
     void six_off();
-
+    void tool_on();
+    void tool_off();
     void on_draw_customContextMenuRequested(const QPoint &pos);
+    void createToolBar();
+    void on_tool_11_clicked();
+    void ShowStyle();
+    void ShowColor();
+    void ToolBar_on();
+    void ToolBar_off();
+    void on_styleComboBox_activated(int index);
+
+    void on_widthSpinBox_valueChanged(int arg1);
+
+    void on_colorBtn_clicked();
+
+    void on_clearBtn_clicked();
 
 private:
     Ui::Ebook *ui;
-    DrawWidget *drawWidget;
-    QLabel *styleLabel;
-    QComboBox *styleComboBox;
-    QLabel *widthLabel;
-    QSpinBox *widthSpinBox;
-    QToolButton *colorBtn;
-    QToolButton *clearBtn;
 };
 #endif // EBOOK_H
