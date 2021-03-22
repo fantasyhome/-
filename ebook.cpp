@@ -2,6 +2,7 @@
 #include "ui_ebook.h"
 #include <QFile>
 int mode=0;
+bool paint_on=0;
 Ebook::Ebook(QWidget *parent)
     : QMainWindow(parent)
     , ui(new Ui::Ebook)
@@ -168,4 +169,9 @@ void Ebook::on_load_b_clicked()
 void Ebook::on_draw_customContextMenuRequested(const QPoint &pos)
 {
 
+}
+
+void Ebook::on_tool_11_clicked()
+{
+    paint_on=!paint_on;
 }

@@ -54,6 +54,8 @@ private slots:
 
     void on_draw_customContextMenuRequested(const QPoint &pos);
 
+    void on_tool_11_clicked();
+
 private:
     Ui::Ebook *ui;
     DrawWidget *drawWidget;
