@@ -102,7 +102,7 @@
      </rect>
     </property>
     <property name="text">
-     <string>本地书籍</string>
+     <string>文化苦旅</string>
     </property>
    </widget>
    <widget class="QTextEdit" name="show">
@@ -471,7 +471,7 @@ background-image: url(:/picture/empty.PNG);</string>
      <rect>
       <x>150</x>
       <y>90</y>
-      <width>1351</width>
+      <width>1311</width>
       <height>781</height>
      </rect>
     </property>
@@ -548,15 +548,29 @@ background-image: url(:/picture/empty.PNG);</string>
      <string>清除</string>
     </property>
    </widget>
+   <widget class="QPushButton" name="localbook_2">
+    <property name="geometry">
+     <rect>
+      <x>440</x>
+      <y>30</y>
+      <width>191</width>
+      <height>221</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>走到人生边上</string>
+    </property>
+   </widget>
    <zorder>show</zorder>
    <zorder>draw</zorder>
+   <zorder>localbook_2</zorder>
+   <zorder>localbook</zorder>
    <zorder>mainpage</zorder>
    <zorder>readbook</zorder>
    <zorder>reply</zorder>
    <zorder>shop</zorder>
    <zorder>personal</zorder>
    <zorder>system</zorder>
-   <zorder>localbook</zorder>
    <zorder>tool_1</zorder>
    <zorder>tool_3</zorder>
    <zorder>tool_2</zorder>

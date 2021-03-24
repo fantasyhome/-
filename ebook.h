@@ -58,10 +58,10 @@ private slots:
     void on_draw_customContextMenuRequested(const QPoint &pos);
     void createToolBar();
     void on_tool_11_clicked();
-    void ShowStyle();
-    void ShowColor();
     void ToolBar_on();
     void ToolBar_off();
+    void read_book(QString);
+    void showdraw();
     void on_styleComboBox_activated(int index);
 
     void on_widthSpinBox_valueChanged(int arg1);
@@ -69,6 +69,8 @@ private slots:
     void on_colorBtn_clicked();
 
     void on_clearBtn_clicked();
+
+    void on_localbook_2_clicked();
 
 private:
     Ui::Ebook *ui;
